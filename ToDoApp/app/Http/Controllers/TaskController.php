@@ -7,8 +7,9 @@ use App\Models\TaskModel;
 
 class TaskController extends Controller
 {
-    //
+    
     public function saveTask(Request $request){
+
         // This function will hanlde the action for saving the task
         //dd($request->all()); // This dd method is used for testing purposes
 
