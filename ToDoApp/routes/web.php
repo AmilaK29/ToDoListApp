@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get("/aboutus", [App\Http\Controllers\ViewController::class, 'indexAboutUs']);
+
+Route::post("/savetask",[App\Http\Controllers\TaskController::class, 'saveTask']);
